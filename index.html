@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- HEAD START -->
+	<head>
+		<title>JDRey's Wiki Viewer</title>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<!-- HEAD END -->
+	<!-- BODY START -->
+	<body>
+			<div class="container">
+				<h1><span id="typedText" class="typed"></span></h1>
+				<div class="well">
+					<div class="form-inline">
+						<div class="form-group">
+							<input type="text" placeholder="Type your query here..." class="form-control" id="input"></input>
+							<button class="btn btn-default" id="clickSearch">Click to Search!</button>
+							<button class="btn btn-default"><a id="clickRandArt" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random Article!</a></button>
+						</div>
+					</div>
+				</div>
+				<div id="searchResult">
+					<!-- Wiki Search Results Populate This DIV -->
+				</div>
+		<!-- FOOTER START -->
+				<footer>Created by Juan Reyes 2016</footer>
+			</div>
+		<!-- FOOTER END -->
+		<!-- SCRIPT START -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script   src="https://code.jquery.com/jquery-1.12.2.min.js"   integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk="   crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+		<script src="index.js"></script>
+		<!-- SCRIPT END -->
+	</body>
+	<!-- BODY END -->
+</html>
