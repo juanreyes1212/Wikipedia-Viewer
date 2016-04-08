@@ -72,10 +72,21 @@ footer {
   	right: 0;
   	bottom: 0;
   	left: 0;
-	color: white;
+	color: #fff;
 	text-align: center;
 	text-shadow: .05em .05em  .025em #000;
 }
+
+#linkedinIcon {
+	padding-left: 0.25em;
+	color: #fff;
+}
+
+#githubIcon{
+	padding-left: 0.25em;
+	color: #fff;
+}
+
 /* TYPED.JS ANIMATION CURSOR STYLING-OPTIONS*/
 .typed-cursor{
     opacity: 1;
